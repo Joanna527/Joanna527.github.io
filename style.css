@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joanna Rutkowska | CV Online</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    .page {
+      max-width: 1100px;
+      margin: 40px auto;
+      background: #ffffff;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    .topbar {
+      background: linear-gradient(135deg, #1d4ed8, #2563eb, #60a5fa);
+      color: white;
+      padding: 40px;
+    }
+
+    .topbar h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .topbar p {
+      font-size: 18px;
+      max-width: 700px;
+    }
+
+    .layout {
+      display: flex;
+      flex-wrap: wrap;
+      min-height: 600px;
+    }
+
+    .sidebar {
+      flex: 1 1 280px;
+      background: #eef4ff;
+      padding: 35px 28px;
+    }
+
+    .main {
+      flex: 2 1 600px;
+      padding: 35px;
+    }
+
+    .section {
+      margin-bottom: 32px;
+    }
+
+    .section h2 {
+      font-size: 20px;
+      color: #1d4ed8;
+      margin-bottom: 14px;
+      border-bottom: 2px solid #dbeafe;
+      padding-bottom: 8px;
+    }
+
+    .section p {
+      margin-bottom: 10px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background: white;
+      color: #1d4ed8;
+      border: 1px solid #bfdbfe;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .card {
+      background: #f9fbff;
+      border-left: 4px solid #2563eb;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 14px;
+    }
+
+    .card h3 {
+      font-size: 17px;
+      margin-bottom: 6px;
+      color: #111827;
+    }
+
+    .muted {
+      color: #6b7280;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    .contact-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .contact-item {
+      background: white;
+      padding: 12px 14px;
+      border-radius: 10px;
+      border: 1px solid #dbeafe;
+    }
+
+    .contact-item a {
+      color: #1d4ed8;
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #6b7280;
+      border-top: 1px solid #e5e7eb;
+      background: #fafafa;
+    }
+
+    @media (max-width: 768px) {
+      .topbar {
+        padding: 28px;
+      }
+
+      .topbar h1 {
+        font-size: 32px;
+      }
+
+      .sidebar,
+      .main {
+        padding: 25px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <h1>Joanna Rutkowska</h1>
+      <p>
+        Studentka filologii angielskiej i przetwarzania języka naturalnego,
+        zainteresowana IT, analizą danych, technologiami internetowymi i rozwojem w branży tech.
+      </p>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <section class="section">
+          <h2>Kontakt</h2>
+          <div class="contact-list">
+            <div class="contact-item">
+              <strong>Email:</strong><br>
+              <a href="mailto:joannarutkowska0@wp.pl">joannarutkowska0@wp.pl</a>
+            </div>
+            <div class="contact-item">
+              <strong>GitHub Pages:</strong><br>
+              <a href="https://joanna527.github.io" target="_blank">joanna527.github.io</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Umiejętności</h2>
+          <div class="skills">
+            <span class="skill">English C2</span>
+            <span class="skill">German B1</span>
+            <span class="skill">Python</span>
+            <span class="skill">SQL</span>
+            <span class="skill">Excel</span>
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Zainteresowania</h2>
+          <p>Lotnictwo, technologia, języki obce, rozwój w branży IT.</p>
+        </section>
+      </aside>
+
+      <main class="main">
+        <section class="section">
+          <h2>O mnie</h2>
+          <p>
+            Jestem osobą ambitną, zorganizowaną i nastawioną na rozwój.
+            Interesuję się nowoczesnymi technologiami, programowaniem oraz analizą danych.
+            Chcę rozwijać swoje kompetencje w obszarze IT i budować doświadczenie zawodowe
+            w środowisku technologicznym.
+          </p>
+        </section>
+
+        <section class="section">
+          <h2>Edukacja</h2>
+
+          <div class="card">
+            <h3>Uniwersytet Gdański</h3>
+            <div class="muted">2024–2026</div>
+            <p>Filologia angielska – Przetwarzanie Języka Naturalnego</p>
+          </div>
+
+          <div class="card">
+            <h3>Harvard University – CS50</h3>
+            <div class="muted">Kurs online</div>
+            <p>Introduction to Computer Science</p>
+          </div>
+
+          <div class="card">
+            <h3>Studia licencjackie</h3>
+            <div class="muted">Filologia angielska – Translatoryka</div>
+            <p>Rozwój kompetencji językowych, analitycznych i komunikacyjnych.</p>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Doświadczenie</h2>
+
+          <div class="card">
+            <h3>Asystentka językowa w IT</h3>
+            <p>
+              Tłumaczenie interfejsów użytkownika, komunikatów systemowych
+              oraz dokumentacji oprogramowania.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Lektor języka angielskiego</h3>
+            <p>
+              Prowadzenie zajęć językowych na poziomach A1–C2,
+              przygotowanie materiałów oraz indywidualna praca z kursantami.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Własna działalność</h3>
+            <p>
+              Organizacja pracy, kontakt z klientami, planowanie,
+              promocja usług oraz samodzielne zarządzanie zadaniami.
+            </p>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Mocne strony</h2>
+          <ul>
+            <li>Dobra organizacja pracy i samodzielność</li>
+            <li>Umiejętności językowe i komunikacyjne</li>
+            <li>Zainteresowanie technologią i nauką nowych narzędzi</li>
+            <li>Łączenie kompetencji humanistycznych z IT</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+
+    <footer class="footer">
+      © Joanna Rutkowska | CV Online
+    </footer>
+  </div>
+</body>
+</html>
