@@ -102,3 +102,26 @@ body {
     padding: 20px;
   }
 }
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.hero-text{
+flex:1;
+}
+
+.hero-photo{
+flex:1;
+display:flex;
+justify-content:center;
+}
+
+.hero-photo img{
+width:280px;
+border-radius:14px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
