@@ -104,7 +104,8 @@ a {
 .hero-grid {
   display: flex;
   align-items: center;
-  gap: 64px;
+  justify-content: space-between;
+  gap: 60px;
   flex-wrap: wrap;
 }
 
@@ -114,23 +115,11 @@ a {
 }
 
 .hero-photo-wrap {
-  flex: 1 1 380px;
+  flex: 0 1 360px;
   display: flex;
   justify-content: center;
+  align-items: center;
   animation: fadeUp 1.1s ease both;
-}
-
-.hero-photo {
-  width: 320px;
-  height: 420px;
-  object-fit: cover;
-  border-radius: 18px;
-  box-shadow: 0 12px 35px rgba(0,0,0,0.25);
-  transition: transform 0.4s ease;
-}
-
-.hero-photo:hover {
-  transform: scale(1.05);
 }
 
 .eyebrow,
@@ -207,7 +196,7 @@ a {
   font-family: Arial, sans-serif;
   padding: 10px 16px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.8);
   border: 1px solid var(--line);
   color: #463d37;
   font-size: 0.92rem;
@@ -222,10 +211,9 @@ a {
 }
 
 .hero-photo-card {
-  position: relative;
-  width: 100%;
-  max-width: 460px;
-  border-radius: 240px 240px 28px 28px;
+  width: 320px;
+  max-width: 100%;
+  border-radius: 24px;
   overflow: hidden;
   box-shadow: var(--shadow);
   transition: transform 0.45s ease, box-shadow 0.45s ease;
@@ -238,9 +226,10 @@ a {
 }
 
 .hero-photo {
-  width: 100%;
-  height: 640px;
+  width: 320px;
+  height: 420px;
   object-fit: cover;
+  object-position: center top;
   transition: transform 0.7s ease;
 }
 
@@ -489,13 +478,18 @@ blockquote {
     gap: 34px;
   }
 
+  .hero-photo-wrap {
+    flex: 1 1 100%;
+  }
+
   .hero-photo-card {
-    border-radius: 32px;
+    width: 280px;
+    border-radius: 22px;
   }
 
   .hero-photo {
-    height: auto;
-    max-height: 640px;
+    width: 280px;
+    height: 360px;
   }
 
   .section {
@@ -525,6 +519,15 @@ blockquote {
   .btn {
     width: 100%;
     text-align: center;
+  }
+
+  .hero-photo-card {
+    width: 240px;
+  }
+
+  .hero-photo {
+    width: 240px;
+    height: 310px;
   }
 
   blockquote {
