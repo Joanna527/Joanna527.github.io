@@ -1,92 +1,233 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Joanna Rutkowska | CV Online</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joanna Rutkowska | Portfolio</title>
+  <meta
+    name="description"
+    content="Portfolio Joanny Rutkowskiej – IT, NLP, języki, analiza danych i doświadczenie zawodowe."
+  />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="page">
-  <header class="topbar">
-  <div class="hero">
-    
-    <div class="hero-text">
-      <h1>Joanna Rutkowska</h1>
-      <p>
-        Studentka zainteresowana IT, programowaniem i przetwarzaniem języka naturalnego.
-      </p>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">Joanna Rutkowska</div>
+      <nav class="menu">
+        <a href="#about">O mnie</a>
+        <a href="#experience">Doświadczenie</a>
+        <a href="#education">Edukacja</a>
+        <a href="#skills">Umiejętności</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
     </div>
+  </header>
 
-    <div class="hero-photo">
-      <img src="c94d17b1-f79c-4398-b981-aa164eb9e7fb.jpg" alt="Joanna Rutkowska">
-    </div>
-
-  </div>
-</header>
-
-    <div class="layout">
-      <aside class="sidebar">
-        <section class="section">
-          <h2>Kontakt</h2>
-          <p>Email: joannarutkowska0@wp.pl</p>
-          <p>GitHub: joanna527.github.io</p>
-        </section>
-
-        <section class="section">
-          <h2>Umiejętności</h2>
-          <div class="skills">
-            <span class="skill">English C2</span>
-            <span class="skill">German B1</span>
-            <span class="skill">Excel</span>
-            <span class="skill">SQL</span>
-            <span class="skill">Python</span>
-            <span class="skill">HTML</span>
-            <span class="skill">CSS</span>
-            <span class="skill">JavaScript</span>
-          </div>
-        </section>
-
-        <section class="section">
-          <h2>Zainteresowania</h2>
-          <p>Lotnictwo, technologia, języki obce.</p>
-        </section>
-      </aside>
-
-      <main class="main">
-        <section class="section">
-          <h2>O mnie</h2>
-          <p>
-            Jestem ambitną i zorganizowaną osobą, która rozwija się w kierunku IT.
-            Interesuję się analizą danych, technologiami internetowymi i nowoczesnymi narzędziami.
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Portfolio / CV Online</p>
+          <h1>Joanna Rutkowska</h1>
+          <p class="lead">
+            Jestem osobą ambitną, zorganizowaną i otwartą na rozwój.
+            Interesuję się analizą danych, programowaniem, technologiami
+            informatycznymi oraz przetwarzaniem języka naturalnego.
           </p>
-        </section>
 
-        <section class="section">
-          <h2>Edukacja</h2>
-          <div class="card">
-            <h3>Uniwersytet Gdański</h3>
-            <p>Filologia angielska – Przetwarzanie Języka Naturalnego</p>
+          <div class="hero-buttons">
+            <a class="btn btn-dark" href="#contact">Kontakt</a>
+            <a class="btn btn-light" href="#experience">Zobacz więcej</a>
           </div>
-          <div class="card">
-            <h3>Harvard CS50</h3>
-            <p>Introduction to Computer Science</p>
-          </div>
-        </section>
 
-        <section class="section">
-          <h2>Doświadczenie</h2>
-          <div class="card">
+          <div class="hero-tags">
+            <span>IT</span>
+            <span>NLP</span>
+            <span>Python</span>
+            <span>SQL</span>
+            <span>English C2</span>
+          </div>
+        </div>
+
+        <div class="hero-photo-wrap">
+          <div class="hero-photo-card">
+            <img
+              src="c94d17b1-f79c-4398-b981-aa164eb9e7fb.jpg"
+              alt="Joanna Rutkowska"
+              class="hero-photo"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container two-col">
+        <div class="section-intro">
+          <p class="section-label">O mnie</p>
+          <h2>Kompetencje językowe i rozwój w kierunku branży IT</h2>
+        </div>
+
+        <div class="section-text">
+          <p>
+            Studiuję filologię angielską ze specjalizacją Przetwarzanie Języka
+            Naturalnego na Uniwersytecie Gdańskim. Specjalizacja obejmuje m.in.
+            analizę tekstu, tworzenie baz danych oraz wykorzystanie języków
+            programowania takich jak Python, SQL, JavaScript, HTML i CSS. 
+          </p>
+          <p>
+            W pracy cenię dokładność, samodzielność i możliwość ciągłego
+            poszerzania wiedzy. Obecnie poszukuję kolejnego doświadczenia
+            w branży IT, szczególnie w obszarach związanych z analizą danych,
+            programowaniem i technologiami informatycznymi. 
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cards-section" id="experience">
+      <div class="container">
+        <div class="section-center">
+          <p class="section-label">Doświadczenie</p>
+          <h2>Doświadczenie zawodowe</h2>
+        </div>
+
+        <div class="cards-grid">
+          <article class="info-card">
             <h3>Asystentka językowa w IT</h3>
-            <p>Tłumaczenie interfejsów, komunikatów systemowych i dokumentacji.</p>
-          </div>
-          <div class="card">
+            <p class="meta">Progmed Systemy Informatyczne | Giżycko</p>
+            <p>
+              Podczas praktyki wspierałam procesy językowe i komunikacyjne
+              w środowisku IT. Do moich zadań należało tłumaczenie interfejsów
+              użytkownika, komunikatów systemowych i dokumentacji oprogramowania. :contentReference[oaicite:3]{index=3}
+            </p>
+          </article>
+
+          <article class="info-card">
             <h3>Lektor języka angielskiego</h3>
-            <p>Prowadzenie zajęć językowych na poziomach A1–C2.</p>
+            <p class="meta">Studio języka angielskiego EVIKO</p>
+            <p>
+              Prowadzenie zajęć z języka angielskiego, przygotowanie materiałów
+              dydaktycznych oraz nauczanie na różnych poziomach od A1 do C2. :contentReference[oaicite:4]{index=4}
+            </p>
+          </article>
+
+          <article class="info-card">
+            <h3>Własna działalność gospodarcza</h3>
+            <p class="meta">3 lata doświadczenia</p>
+            <p>
+              Właścicielka jednoosobowej działalności gospodarczej
+              specjalizującej się w profesjonalnej stylizacji rzęs.
+              Samodzielne zarządzanie grafikiem, klientami, zaopatrzeniem
+              i promocją usług. :contentReference[oaicite:5]{index=5}
+            </p>
+          </article>
+
+          <article class="info-card">
+            <h3>Obsługa klienta</h3>
+            <p class="meta">Jeronimo Martins Polska S.A.</p>
+            <p>
+              Obsługa klientów, prace porządkowe oraz dbałość o estetykę sklepu. :contentReference[oaicite:6]{index=6}
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="container split-grid">
+        <div class="panel">
+          <p class="section-label">Edukacja</p>
+          <h2>Wykształcenie</h2>
+
+          <div class="entry">
+            <h3>Uniwersytet Gdański</h3>
+            <p>Filologia angielska, Przetwarzanie Języka Naturalnego</p>
+            <span>Studia magisterskie | 10.2024 – 06.2026</span>
           </div>
-        </section>
-      </main>
+
+          <div class="entry">
+            <h3>Europejska Akademia Medycznych i Społecznych Nauk Stosowanych</h3>
+            <p>Filologia angielska, Translatoryka</p>
+            <span>Dyplom licencjata</span>
+          </div>
+
+          <div class="entry">
+            <h3>Europejska Akademia Medycznych i Społecznych Nauk Stosowanych</h3>
+            <p>Przygotowanie pedagogiczne</p>
+            <span>Studia podyplomowe</span>
+          </div>
+
+          <div class="entry">
+            <h3>Harvard University</h3>
+            <p>CS50 Introduction to Computer Science</p>
+            <span>Kurs online</span>
+          </div>
+        </div>
+
+        <div class="panel" id="skills">
+          <p class="section-label">Umiejętności</p>
+          <h2>Kompetencje</h2>
+
+          <div class="skills-list">
+            <span>Biegła znajomość języka angielskiego (C2)</span>
+            <span>Niemiecki (B1)</span>
+            <span>Excel – zaawansowany</span>
+            <span>SQL – średnio zaawansowany</span>
+            <span>Python – średnio zaawansowany</span>
+            <span>HTML & CSS</span>
+            <span>JavaScript – podstawy</span>
+            <span>Prawo jazdy kat. B</span>
+          </div>
+
+          <div class="mini-box">
+            <h3>Zainteresowania</h3>
+            <p>
+              Jestem w trakcie robienia licencji Private Pilot Licence (Aircraft)
+              w Aeroklubie Warmińsko-Mazurskim. Interesuję się lotnictwem
+              i moim marzeniem jest praca w tym świecie. :contentReference[oaicite:7]{index=7}
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quote-section">
+      <div class="container">
+        <blockquote>
+          „Łączę kompetencje językowe z zainteresowaniem technologią,
+          analizą danych i nowoczesnymi rozwiązaniami cyfrowymi.”
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="section-label">Kontakt</p>
+          <h2>Zapraszam do kontaktu</h2>
+          <p class="contact-text">
+            Jestem otwarta na nowe doświadczenia, projekty oraz możliwości
+            rozwoju zawodowego w środowisku IT.
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <p><strong>Email</strong></p>
+          <a href="mailto:joannarutkowska0@wp.pl">joannarutkowska0@wp.pl</a>
+
+          <p class="contact-space"><strong>Strona</strong></p>
+          <a href="https://joanna527.github.io" target="_blank">joanna527.github.io</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© Joanna Rutkowska | Portfolio</p>
     </div>
-  </div>
+  </footer>
 </body>
 </html>
